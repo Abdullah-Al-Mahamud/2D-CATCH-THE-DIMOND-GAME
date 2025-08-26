@@ -1,9 +1,8 @@
-💎 # GemCollect
+💎 GemCollection
 
-Midpoint Line Drawer is a computer graphics project built with Python and PyOpenGL. It demonstrates the Midpoint Line Drawing Algorithm, zone-based coordinate transformations, and simple 2D collision detection between objects.
+GemRush is a fast-paced arcade-style OpenGL game where your goal is to catch falling gems using a basket. The game tests your reflexes and precision as the gems drop faster with every successful catch.
 
 📜 Table of Contents
-
 Overview
 
 Features
@@ -12,103 +11,96 @@ Requirements
 
 Installation
 
-Running the Program
+Running the Game
 
-Usage Instructions
+Gameplay Instructions
 
 Controls
-
 Objective
-
-Program Flow
+Game Over Conditions
+Scoring
+Game Screen Layout
 
 Tips & Tricks
 
 License
 
 📖 Overview
-This project visualizes how lines are drawn using the Midpoint Line Algorithm, an efficient rasterization method in computer graphics. It also includes zone conversion to handle all octants and a C_T_Dimond class that checks for collisions between diamond-shaped objects.
-
-The program renders points in real time with OpenGL, helping learners understand the fundamentals of low-level drawing and geometric transformations.
+In GemRush, sparkling gems fall from the top of the screen, and you control a basket at the bottom to catch them. The more gems you catch, the faster they fall. If you miss a gem, the game ends, and you can restart or quit via the on-screen buttons.
 
 ✨ Features
-
-🎯 Midpoint Line Drawing Algorithm implemented in Python
-
-🔄 Zone-based transformations for handling all slope cases
-
-💎 Custom C_T_Dimond class with built-in collision detection
-
-🎨 OpenGL rendering with point plotting (GL_POINTS)
-
-⚡ Step-by-step pixel drawing visualization
-
+🎯 Smooth real-time gameplay at 60 FPS
+💎 Rotating and sparkling gem visuals
+🛑 Pause, restart, and quit buttons built into the UI
+📈 Progressive difficulty — gems fall faster as your score increases
+🎨 Custom OpenGL rendering with perspective and shape details
 🖥 Requirements
-
 Python 3.x
-
 PyOpenGL
-
 PyOpenGL_accelerate (optional for better performance)
-
 ⚙ Installation
-
 # Clone this repository
-git clone https://github.com/yourusername/midpoint-line-drawer.git
-cd midpoint-line-drawer
+git clone https://github.com/yourusername/gemrush.git
+cd gemrush
 
 # Install dependencies
 pip install PyOpenGL PyOpenGL_accelerate
-
-
-▶ Running the Program
-
-python 22101811_Abdullah\ Al\ Mahamud_A2.py
-
-
-🎮 Usage Instructions
-
+▶ Running the Game
+python gemrush.py
+🎮 Gameplay Instructions
 🎛 Controls
-
-Action	Key
-Close window	ESC
-Redraw lines	R
-Trigger collision check	C
-
+Action	Key/Mouse
+Move basket left	← (Left Arrow)
+Move basket right	→ (Right Arrow)
+Pause/Resume	Spacebar
+Restart game (UI button)	Left-click on blue circle at top left
+Quit game (UI button)	Left-click on red X at top right
+Pause/Resume (UI button)	Left-click on orange button at top center
 🎯 Objective
-
-Visualize how the Midpoint Line Algorithm plots pixels on the screen.
-
-Understand how zone conversion ensures correct rendering in all slopes.
-
-Experiment with simple 2D object collision detection.
-
-💀 Program Flow
-
-Lines are drawn step by step using the Midpoint Algorithm.
-
-Zone detection ensures lines render correctly in all octants.
-
-Collision detection checks if two diamond objects overlap.
-
-🖼 Screen Layout
-
+Catch falling gems with your basket before they hit the ground.
+Each successful catch increases your score and makes the gems fall faster.
+💀 Game Over Conditions
+You miss a gem (it falls past the basket).
+The basket turns red when the game ends.
+You can restart via the blue restart button or quit via the red exit button.
+🏆 Scoring
++1 point for every gem caught.
+Gems fall faster with each point scored.
+🖼 Game Screen Layout
  -------------------------------------------------
-|                Coordinate Grid                 |
-|                                                 |
-|        Lines plotted using Midpoint Algo        |
-|                                                 |
-|   Objects (Diamonds) with collision check       |
+|  🔄 (Restart)   ⏸ (Pause/Resume)   ❌ (Exit)    |
+|                                                  |
+|         Falling gems appear here                 |
+|                                                  |
+|                                                  |
+|                      Basket                      |
  -------------------------------------------------
-
-
 💡 Tips & Tricks
-
-Experiment with different line start/end coordinates to test all slopes.
-
-Use collision detection by creating multiple diamond objects.
-
-Increase point size in OpenGL to better visualize plotted pixels.
-
+Anticipate gem movement — they drop faster over time.
+Use pause to regain focus during intense gameplay.
+Keep your basket centered when waiting for the next gem.
 📜 License
 This project is licensed under the MIT License.
+
+About
+No description, website, or topics provided.
+Resources
+ Readme
+License
+ MIT license
+ Activity
+Stars
+ 1 star
+Watchers
+ 0 watching
+Forks
+ 0 forks
+Report repository
+Releases
+No releases published
+Packages
+No packages published
+Languages
+Python
+100.0%
+Footer
