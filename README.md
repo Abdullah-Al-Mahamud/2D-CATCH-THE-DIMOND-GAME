@@ -67,8 +67,10 @@ The program renders points in real time with OpenGL, helping learners understand
  . Collision detection checks if two diamond objects overlap.
 
 🖼 Screen Layout
+
+ 
  -------------------------------------------------
-|                Coordinate Grid                 |
+|                Coordinate Grid                  |
 |                                                 |
 |        Lines plotted using Midpoint Algo        |
 |                                                 |
