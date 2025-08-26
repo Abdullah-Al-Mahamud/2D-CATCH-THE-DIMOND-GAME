@@ -68,13 +68,12 @@ The program renders points in real time with OpenGL, helping learners understand
 
 🖼 Screen Layout
 
- 
  -------------------------------------------------
-|                Coordinate Grid                  |
-|                                                 |
-|        Lines plotted using Midpoint Algo        |
-|                                                 |
-|   Objects (Diamonds) with collision check       |
+|                Coordinate Grid                   |
+|                                                  |
+|        Lines plotted using Midpoint Algo         |
+|                                                  |
+|   Objects (Diamonds) with collision check        |
  -------------------------------------------------
 
 💡 Tips & Tricks
