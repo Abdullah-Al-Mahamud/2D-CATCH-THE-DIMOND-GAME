@@ -15,12 +15,13 @@ GemRush is a fast-paced arcade-style OpenGL game where your goal is to catch fal
   7. Tips & Tricks
   8. License
 
-📖 Overview
+📖 Overview :
+
 This project visualizes how lines are drawn using the Midpoint Line Algorithm, an efficient rasterization method in computer graphics. It also includes zone conversion to handle all octants and a C_T_Dimond class that checks for collisions between diamond-shaped objects.
 
 The program renders points in real time with OpenGL, helping learners understand the fundamentals of low-level drawing and geometric transformations.
 
-✨ Features
+✨ Features :
 
 . 🎯 Midpoint Line Drawing Algorithm implemented in Python
 
@@ -40,15 +41,32 @@ The program renders points in real time with OpenGL, helping learners understand
 
   . PyOpenGL_accelerate (optional for better performance)
 
-🎮 Usage Instructions
+⚙ Installation
+
+# Clone this repository
+git clone https://github.com/yourusername/gemrush.git
+cd gemrush
+
+# Install dependencies
+pip install PyOpenGL PyOpenGL_accelerate
+
+
+▶ Running the Game
+python gemrush.py
+
+
+🎮 Gameplay Instructions
 
 🎛 Controls
 
-| Action                  | Key |
-| ----------------------- | --- |
-| Close window            | ESC |
-| Redraw lines            | R   |
-| Trigger collision check | C   |
+Action	Key/Mouse
+Move basket left	← (Left Arrow)
+Move basket right	→ (Right Arrow)
+Pause/Resume	Spacebar
+Restart game (UI button)	Left-click on blue circle at top left
+Quit game (UI button)	Left-click on red X at top right
+Pause/Resume (UI button)	Left-click on orange button at top center
+
 
 🎯 Objective
 
@@ -58,6 +76,7 @@ The program renders points in real time with OpenGL, helping learners understand
 
  . Experiment with simple 2D object collision detection.
 
+
 💀 Program Flow
 
  . Lines are drawn step by step using the Midpoint Algorithm.
@@ -65,6 +84,7 @@ The program renders points in real time with OpenGL, helping learners understand
  . Zone detection ensures lines render correctly in all octants.
 
  . Collision detection checks if two diamond objects overlap.
+
 
 🖼 Screen Layout
 
