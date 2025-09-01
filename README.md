@@ -62,7 +62,7 @@ python gemrush.py
 🎮 Gameplay Instructions
 
 
-🎛 Controls
+🎛 Controls :
 
 Action	Key/Mouse
 Move basket left	← (Left Arrow)
@@ -74,7 +74,7 @@ Pause/Resume (UI button)	Left-click on orange button at top center
 
 
 
-🎯 Objective
+🎯 Objective :
 
  . Visualize how the Midpoint Line Algorithm plots pixels on the screen.
 
